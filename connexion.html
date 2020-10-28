@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<head>
+<title>Connexion</title>
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/bootstrap/js/popper.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/daterangepicker/moment.min.js"></script>
+<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+<script>
+function validate()
+{
+     var username = document.form.username.value;
+     var password = document.form.password.value;
+ 
+     if (username==null || username=="")
+     {
+     alert("Username cannot be blank");
+     return false;
+     }
+     else if(password==null || password=="")
+     {
+     alert("Password cannot be blank");
+     return false;
+     }
+}
+</script> 
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="css/util.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<img src="images/entete.jpg" class="images_petit" alt="fleur" />
+
+<!--===============================================================================================-->
+</head>
+
+<body>
+
+
+
+<div class="limiter">
+<div class="container-login100">
+<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+<form action="" method="post" onsubmit="return validate()" class="login100-form validate-form" >
+
+<span class="login100-form-title p-b-33">
+<img src="images\tof3.jpg">
+<br>
+<r>Merci de vous identifier afin de pouvoir accéder au portail.</r>
+                    </span>
+                    <label for="username"> <c> Nom d'utilisateur: </c> </label>
+                    <input type="text" name="username"  />
+                     
+                    <br>
+<label for="password"><c>Mot de passe: </c> </label>
+<input type="password" name="password">
+
+<div class="container-login100-form-btn m-t-20">
+<button type="submit" value="Login" class="login100-form-btn">
+Valider
+</button>
+</div>
+
+
+</form>
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="res/WWConstante5.js"></script>
+<script type="text/javascript" src="res/WDUtil.js"></script>
+<script type="text/javascript" src="res/StdAction.js"></script>
+<script type="text/javascript" src="res/WDChamp.js"></script>
+<script type="text/javascript" src="res/WDXML.js"></script>
+<script type="text/javascript" src="res/WDSaisie.js"></script>
+<script type="text/javascript" src="res/WDDrag.js"></script>
+<script type="text/javascript" src="res/WDAJAX.js"></script>
+<script type="text/javascript" src="res/WDTableZRCommun.js"></script>
+<script type="text/javascript" src="res/WDTable.js"></script>
+<script type="text/javascript" src="res/WDTableHierarchique.js"></script>
+<script type="text/javascript" src="res/WDLangage.js"></script>
+<script type="text/javascript" src="res/WDCalendrier.js"></script>
+<script type="text/javascript" src="res/WDAnim.js"></script>
+<script type="text/javascript" src="res/WDUpload.js"></script>
+<script type="text/javascript" src="res/WDZRNavigateur.js"></script>
+<script type="text/javascript" src="res/WD.js"></script>
+<script type="text/javascript" src="res/animations.js"></script>
+<script type="text/javascript" src="res/reglement.js"></script>
+<script type="text/javascript" charset="windows-1252" src="res/WDLIB.JS"></script>
+<script type="text/javascript" src="res/jquery-3.js"></script>
+<script type="text/javascript" data-wb-modal src="res/jquery-ancrage-ie.js"></script>
+<script type="text/javascript" src="res/jquery-ui.js"></script>
+<script type="text/javascript" src="res/jquery-effet.js"></script>
+<script type="text/javascript" data-wb-modal src="res/jquery-ancrage-sup-epingle.js"></script>
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="plugins/datatables/jquery.dataTables.js"></script>
+<script src="plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<script src="dist/js/adminlte.min.js"></script>
+
+
+</body>
+</html>
